@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "server-mock",
+      "runtimeExecutable": "env",
+      "runtimeArgs": ["MOCK_MODE=true", "node", "server.js"],
+      "port": 3000
+    }
+  ]
+}
